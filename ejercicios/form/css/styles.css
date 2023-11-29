@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0,123,255,0.1);
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+legend {
+  padding: 0 5px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.form-radio {
+  display: inline-block; /* Alinea los contenedores de los botones de radio en línea */
+}
+
+.form-radio input[type="radio"],
+.form-radio label {
+  display: inline-block; /* Alinea los botones de radio y las etiquetas en línea */
+  vertical-align: middle;
+  margin-right: 10px; /* Espacio después de cada etiqueta */
+}
+
+#opcion1, #opcion2 {
+position: relative;
+top: -3px;
+}
