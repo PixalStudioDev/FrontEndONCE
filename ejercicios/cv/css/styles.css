@@ -64,7 +64,6 @@ a {
 a:hover svg {
 
   transition: fill 0.3s ease;
-  /* Transición suave del color */
 }
 
 img {
@@ -107,29 +106,26 @@ div.section:nth-child(5)>ul:nth-child(2) {
 .accordion span {
   display: inline-block;
   width: calc(100% - 30px);
-  /* Ajusta el ancho según sea necesario */
   padding-left: 30px;
-  /* Espacio para el ícono */
 }
 
 .accordion:after {
-  content: '\002B'; /* Símbolo de "más" */
+  content: '\002B';
   color: #777;
   position: absolute;
   left: 5px;
-  top: 5px; /* Posicionado en la parte superior */
-  transform: rotate(0deg); /* Rotación inicial sin traslado vertical */
+  top: 5px;
+  transform: rotate(0deg);
   font-weight: bold;
   width: 20px;
   height: 20px;
   text-align: center;
-  line-height: 20px; /* Centra el texto verticalmente en el ícono */
+  line-height: 20px; 
   transition: transform 0.3s ease;
   font-size: 20px;
 }
 
 .active:after {
-  /* Rotamos el '+' para que parezca un 'x', sin cambiar su posición vertical */
   transform: rotate(45deg);
 }
 
@@ -137,7 +133,6 @@ div.section:nth-child(5)>ul:nth-child(2) {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  /* Añade otros estilos de acuerdo a tus necesidades */
 }
 
 .panel > p {
