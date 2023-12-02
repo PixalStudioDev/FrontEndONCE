@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Mundo Al Día - Noticias Actualizadas y Análisis Profundos</title>
+    <meta name="description"
+        content="El Mundo Al Día ofrece las últimas noticias nacionales e internacionales, deportes, entretenimiento y tecnología.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header-content">
+            <h1>El Mundo Al Día</h1>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nacionales</a></li>
+                <li><a href="#">Internacionales</a></li>
+                <li><a href="#">Deportes</a></li>
+                <li><a href="#">Entretenimiento</a></li>
+                <li><a href="#">Tecnología</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="grid-container">
+            <!-- Artículo 1 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo1/articulo1.html')">
+                <img src="recursos/articulo1/fotonoticia.webp" alt="Imagen del artículo sobre Suecia y la OTAN">
+                <p>Suecia confía en que Turquía ratifique su adhesión a la OTAN "en semanas"</p>
+            </article>
+            <!-- Artículo 2 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo2/articulo2.html')">
+                <img src="recursos/articulo2/fotonoticia.webp" alt="Imagen del ataque con cuchillo en Polonia">
+                <p>Al menos tres heridos en un ataque con cuchillo en una escuela de Polonia</p>
+            </article>
+            <!-- Artículo 1 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo1/articulo1.html')">
+                <img src="recursos/articulo1/fotonoticia.webp" alt="Imagen del artículo sobre Suecia y la OTAN">
+                <p>Suecia confía en que Turquía ratifique su adhesión a la OTAN "en semanas"</p>
+            </article>
+            <!-- Artículo 2 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo2/articulo2.html')">
+                <img src="recursos/articulo2/fotonoticia.webp" alt="Imagen del ataque con cuchillo en Polonia">
+                <p>Al menos tres heridos en un ataque con cuchillo en una escuela de Polonia</p>
+            </article>
+            <!-- Artículo 1 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo1/articulo1.html')">
+                <img src="recursos/articulo1/fotonoticia.webp" alt="Imagen del artículo sobre Suecia y la OTAN">
+                <p>Suecia confía en que Turquía ratifique su adhesión a la OTAN "en semanas"</p>
+            </article>
+            <!-- Artículo 2 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo2/articulo2.html')">
+                <img src="recursos/articulo2/fotonoticia.webp" alt="Imagen del ataque con cuchillo en Polonia">
+                <p>Al menos tres heridos en un ataque con cuchillo en una escuela de Polonia</p>
+            </article>
+            <!-- Artículo 1 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo1/articulo1.html')">
+                <img src="recursos/articulo1/fotonoticia.webp" alt="Imagen del artículo sobre Suecia y la OTAN">
+                <p>Suecia confía en que Turquía ratifique su adhesión a la OTAN "en semanas"</p>
+                
+            </article>
+            <!-- Artículo 2 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo2/articulo2.html')">
+                <img src="recursos/articulo2/fotonoticia.webp" alt="Imagen del ataque con cuchillo en Polonia">
+                <p>Al menos tres heridos en un ataque con cuchillo en una escuela de Polonia</p>
+            </article>
+            <!-- Artículo 1 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo1/articulo1.html')">
+                <img src="recursos/articulo1/fotonoticia.webp" alt="Imagen del artículo sobre Suecia y la OTAN">
+                <p>Suecia confía en que Turquía ratifique su adhesión a la OTAN "en semanas"</p>
+            </article>
+            <!-- Artículo 2 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo2/articulo2.html')">
+                <img src="recursos/articulo2/fotonoticia.webp" alt="Imagen del ataque con cuchillo en Polonia">
+                <p>Al menos tres heridos en un ataque con cuchillo en una escuela de Polonia</p>
+            </article>
+            <!-- Artículo 1 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo1/articulo1.html')">
+                <img src="recursos/articulo1/fotonoticia.webp" alt="Imagen del artículo sobre Suecia y la OTAN">
+                <p>Suecia confía en que Turquía ratifique su adhesión a la OTAN "en semanas"</p>
+            </article>
+            <!-- Artículo 2 -->
+            <article class="grid-item" onclick="openPopup('recursos/articulo2/articulo2.html')">
+                <img src="recursos/articulo2/fotonoticia.webp" alt="Imagen del ataque con cuchillo en Polonia">
+                <p>Al menos tres heridos en un ataque con cuchillo en una escuela de Polonia</p>
+            </article>
+        </section>
+    </main>
+
+    <aside id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <div id="popupInnerContent"></div>
+        </div>
+        <form id="commentForm" action="procesamiento" method="POST">
+            <h3>Envía tu comentario</h3>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="comment">Comentario:</label>
+            <textarea id="comment" name="comment" required=""></textarea>
+        
+            <button type="submit">Enviar Comentario</button>
+        </form>
+    </aside>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 El Mundo Al Día. Todos los derechos reservados.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Uso</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

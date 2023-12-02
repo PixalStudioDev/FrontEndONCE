@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Ejemplo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Nombre del Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Categorías</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="grid-container">
+        <!-- Ejemplo de artículo -->
+        <div class="grid-item" onclick="openPopup('Artículo 1')">
+            <h2>Artículo 1</h2>
+            <p>Descripción corta del artículo...</p>
+        </div>
+        <!-- Repite para más artículos -->
+    </div>
+    <div class="grid-container">
+        <!-- Ejemplo de artículo -->
+        <div class="grid-item" onclick="openPopup('Artículo 1')">
+            <h2>Artículo 1</h2>
+            <p>Descripción corta del artículo...</p>
+        </div>
+        <!-- Repite para más artículos -->
+    </div>
+    <div class="grid-container">
+        <!-- Ejemplo de artículo -->
+        <div class="grid-item" onclick="openPopup('Artículo 1')">
+            <h2>Artículo 1</h2>
+            <p>Descripción corta del artículo...</p>
+        </div>
+        <!-- Repite para más artículos -->
+    </div>
+    <div class="grid-container">
+        <!-- Ejemplo de artículo -->
+        <div class="grid-item" onclick="openPopup('Artículo 1')">
+            <h2>Artículo 1</h2>
+            <p>Descripción corta del artículo...</p>
+        </div>
+        <!-- Repite para más artículos -->
+    </div>
+    <div class="grid-container">
+        <!-- Ejemplo de artículo -->
+        <div class="grid-item" onclick="openPopup('Artículo 1')">
+            <h2>Artículo 1</h2>
+            <p>Descripción corta del artículo...</p>
+        </div>
+        <!-- Repite para más artículos -->
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Nombre del Blog. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:email@example.com">email@example.com</a></p>
+    </footer>
+    <!-- Popup -->
+    <div id="popup" class="popup" onclick="closePopup()">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2 id="popupTitle"></h2>
+            <p>Información completa del artículo aquí...</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

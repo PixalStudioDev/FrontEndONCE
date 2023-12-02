@@ -1,0 +1,208 @@
+
+body {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  width: 90%;
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed; /* Utiliza fixed en lugar de absolute para cubrir todo el viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/marco1.webp);
+  background-repeat: repeat;
+  background-size: 65px;
+  background-position: center;
+  filter: blur(50px); /* Ajusta el nivel de desenfoque aquí */
+  z-index: -1; /* Asegúrate de que el fondo quede detrás del contenido */
+}
+
+header {
+  background-color: #4f7a7f;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+header h1 {
+  margin: 5px0;
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px;
+  text-align: center;
+  font-size: 23px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  padding: 30px 0px 10px 0px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+img {
+  object-fit: cover;
+  max-width: -webkit-fill-available;
+  width: -moz-available;
+}
+.popup {
+  display: none; /* ocultar el popup inicialmente */
+  position: fixed; /* fijar en la pantalla */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* centrar el popup */
+  width: auto;
+  max-width: 80%; /* máximo ancho del popup */
+  max-height: 80vh; /* máximo alto del popup */
+  overflow-y: auto; /* hacer desplazable si el contenido es muy alto */
+  z-index: 1000; /* asegurarse de que está por encima de otros elementos */
+  background: white; /* fondo blanco para el contenido */
+  padding: 20px; /* algo de espacio alrededor del contenido */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra ligera para dar profundidad */
+  border-radius: 5px; /* bordes redondeados para estética */
+}
+
+
+#commentForm #comment{
+width: 180px; 
+height: 122px;
+}
+
+input, select, textarea {
+  width: 180px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+
+button {
+  width: 185px;
+  font-size: 16px;
+  color: maroon;
+}
+
+body.popup-active {
+  overflow: hidden; /* Elimina el scroll del body */
+}
+
+.popup-content {
+  background-color: white;
+/*   margin: 15% auto;
+  width: 65%;
+ */  padding: 20px;
+  position: relative;
+  max-height: 80vh; /* El 80% de la altura de la ventana del navegador */
+  overflow-y: auto; /* Hacer desplazable si el contenido es muy alto */
+}
+
+#commentForm {
+  position: relative;
+  top: 112px;
+  height: fit-content;
+  margin-bottom: 0px;
+  font-size: 18px;
+  }
+
+#commentForm h3 {
+  margin: 0px 0px 10px 0px;
+  font-size: 19.5px;
+}
+
+  .close {
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    font-size: 40px;
+  }
+.close:hover {
+  color: #000;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+footer .footer-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0px 5px 0px;
+  text-align: center;
+  display: grib;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .popup-content {
+      width: 90%;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+}
+}
+
