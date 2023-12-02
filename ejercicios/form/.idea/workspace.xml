@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5d7082b-10d3-49ef-bf63-589f67596bbf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../blog1/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog1/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/img/marco.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/img/marco1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/recursos/articulo1/articulo1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/recursos/articulo1/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/recursos/articulo2/articulo2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/recursos/articulo2/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/recursos/articulo2/fotonoticia1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog2/recursos/articulo2/fotonoticia2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/img/marco.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/img/marco1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/entretenimiento/articulo1/articulo1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/entretenimiento/articulo1/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/entretenimiento/articulo2/articulo2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/entretenimiento/articulo2/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/entretenimiento/articulo2/fotonoticia1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/entretenimiento/articulo2/fotonoticia2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/internacionales/articulo1/articulo1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/internacionales/articulo1/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/internacionales/articulo2/articulo2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/internacionales/articulo2/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/internacionales/articulo2/fotonoticia1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/internacionales/articulo2/fotonoticia2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/nacionales/articulo1/articulo1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/nacionales/articulo1/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/nacionales/articulo2/articulo2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/nacionales/articulo2/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/nacionales/articulo2/fotonoticia1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/nacionales/articulo2/fotonoticia2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/tecnologia/articulo1/articulo1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/tecnologia/articulo1/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/tecnologia/articulo2/articulo2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/tecnologia/articulo2/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/tecnologia/articulo2/fotonoticia1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/tecnologia/articulo2/fotonoticia2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/ultimahora/articulo1/articulo1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/ultimahora/articulo1/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/ultimahora/articulo2/articulo2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/ultimahora/articulo2/fotonoticia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/ultimahora/articulo2/fotonoticia1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog3/recursos/ultimahora/articulo2/fotonoticia2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/toniseguido.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/scripts.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2YzC3aNjynfcfMpSC6aZztzF6dg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5d7082b-10d3-49ef-bf63-589f67596bbf" name="Changes" comment="" />
+      <created>1701518825655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701518825655</updated>
+    </task>
+    <servers />
+  </component>
+</project>
