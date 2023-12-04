@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ejemplo de elementos en bloque y en línea para una página web bien estructurada">
+  <title>Ejemplo de Elementos en Bloque y en Línea</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Categorías principales">
+      <button class="categoria" onclick="filtrarImagenes('naturaleza')">Naturaleza</button>
+      <button class="categoria" onclick="filtrarImagenes('ciudad')">Ciudad</button>
+      <button class="categoria" onclick="filtrarImagenes('personas')">Personas</button>
+      <button class="categoria" onclick="filtrarImagenes('todas')">Todas</button>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="galeria-container" aria-label="Galería de imágenes">
+      <img class="imagen naturaleza" src="img/naturaleza.jpg" alt="Paisaje de naturaleza">
+      <img class="imagen ciudad" src="img/cuidad.jpg" alt="Vista urbana de la ciudad">
+      <img class="imagen personas" src="img/personas.jpg" alt="Grupo de personas">
+      <!-- Más imágenes aquí -->
+    </section>
+
+    <section class="block-container">
+      <h2>Elementos en Bloque</h2>
+      <div class="block-element">Bloque 1</div>
+      <div class="block-element">Bloque 2</div>
+      <div class="block-element">Bloque 3</div>
+    </section>
+
+    <section class="inline-container">
+      <h2>Elementos en Línea</h2>
+      <span class="inline-element">En línea 1</span>
+      <span class="inline-element">En línea 2</span>
+      <span class="inline-element">En línea 3</span>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 Ejercicio de clase Modelos de Cajas</p>
+  </footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
